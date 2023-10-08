@@ -12,7 +12,7 @@ df.columns = df.columns.str.split('_', expand=True)
 
 # Define a function to create a new column name based on the mouse type and test type
 def create_new_column_name(col):
-    return f"{col[1]}_{col[3]}"
+    return f"{col[1]}_{col[2]}_{col[3]}_{col[4]}"
 
 # Apply the function to each column
 df.columns = df.columns.map(create_new_column_name)
