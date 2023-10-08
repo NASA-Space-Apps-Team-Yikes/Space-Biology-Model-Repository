@@ -30,7 +30,12 @@ df_final = pd.concat([df[df.columns[0]], df_avg], axis=1)
 df_final.columns = df_final.columns + '_avg'
 
 # Rename the protein column
-df_final.rename(columns={df_final.columns[0]: 'ensembl_id'}, inplace=True)
+df_final.rename(columns={df_final.columns[0]: 'ensmbl_id'}, inplace=True)
 
-# Write the processed data to a new CSV file
-df_final.to_csv('processed_data.csv', index=False)
+# Split the DataFrame into two DataFrames based on the mouse type
+df_c3h = df_final.filter(regex='c3h|ensmbl_id', axis=1)
+df_c57 = df_final.filter(regex='c57|ensmbl_id', axis=1)
+
+# Write each DataFrame to a different CSV file
+df_c3h.to_csv('processed_data_c3h.csv', index=False)
+df_c57.to_csv('processed_data_c57.csv', index=False)
