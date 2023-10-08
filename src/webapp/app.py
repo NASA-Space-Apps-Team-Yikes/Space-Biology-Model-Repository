@@ -25,7 +25,7 @@ def database():
     conn, cursor = connect_to_database()
     if cursor is not None:
         try:
-            cursor.execute("SELECT * FROM actual_table_name WHERE id = 'ENSMUSG00000000031'")
+            cursor.execute("SELECT * FROM c57_6j_data WHERE ensembl_id = 'ENSMUSG00000000031'")
             rows = cursor.fetchall()
         except Exception as e:
             print("Failed to fetch data: {}".format(e))
