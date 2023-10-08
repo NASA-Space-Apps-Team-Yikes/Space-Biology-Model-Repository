@@ -1,3 +1,18 @@
+'''
+This script is designed to process and upload data from specific CSV files to space apps RDS PostgreSQL database.
+The data in the CSV files pertains to the genetic sequences of specific mouse strains for study OSD-253.
+Before inserting the records, the script checks the validity of the ensembl_id against the main_data table.
+If the ensembl_id does not exist in the main_data table, the corresponding row is skipped.
+This ensures that the uploaded data maintains referential integrity with the existing records in the database.
+
+Usage:
+- Ensure the CSV file paths are correctly set.
+- Ensure the database connection parameters (host, port, user, password) are set correctly.
+- Run the script to process and upload the data to the respective tables in the RDS.
+
+Author: Doug Puccetti
+Date: 10/08/2023
+'''
 import csv
 import psycopg2
 
