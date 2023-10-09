@@ -22,9 +22,10 @@ This repository contains various resources and modules for the Space Biology Mod
         - `upload.html`: Template for the Upload Data page.
 
 
-### Team YIKES Members:
-Doug Puccetti @dpuccetti
-Augustus Tilley @tilleyam
-Hunter Allyn @hunterhwa
-Sarah Memon @sarahm6
-Ryan Mioduski @ryanmioduski
+#### Team YIKES Members:
+
+* **Doug Puccetti** - [@dpuccetti](https://github.com/dpuccetti)
+* **Augustus Tilley** - [@tilleyam](https://github.com/tilleyam)
+* **Hunter Allyn** - [@hunterhwa](https://github.com/hunterhwa)
+* **Sarah Memon** - [@sarahm6](https://github.com/sarahm6)
+* **Ryan Mioduski** - [@ryanmioduski](https://github.com/ryanmioduski)
