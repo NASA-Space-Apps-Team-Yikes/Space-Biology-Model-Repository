@@ -15,6 +15,7 @@ Date: 10/08/2023
 '''
 import csv
 import psycopg2
+import os
 
 
 # Function to establish a connection to the PostgreSQL database
@@ -24,8 +25,8 @@ def connect():
         conn = psycopg2.connect(host="model-zoo-space-apps.cqxs7dfl7szm.us-east-2.rds.amazonaws.com",
                                 port="5432",
                                 database="postgres",
-                                user="***",
-                                password="***")
+                                user=os.getenv("DB_USER"),
+                                password=os.getenv("DB_PASSWORD"))
         cursor = conn.cursor()
         print("Connected")
     except Exception as e:
