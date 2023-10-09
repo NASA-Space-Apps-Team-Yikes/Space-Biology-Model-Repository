@@ -22,7 +22,7 @@ This repository contains various resources and modules for the Space Biology Mod
         - `upload.html`: Template for the Upload Data page.
 
 
-#### Team YIKES Members:
+### Team YIKES Members:
 
 * **Doug Puccetti** - [@dpuccetti](https://github.com/ohmyitsdoug)
 * **Augustus Tilley** - @tilleyam
