@@ -28,4 +28,4 @@ This repository contains various resources and modules for the Space Biology Mod
 * **Augustus Tilley** - @tilleyam
 * **Hunter Allyn** - @hunterhwa
 * **Sarah Memon** - @sarahm6
-* **Ryan Mioduski** - [@ryanmioduski](https://github.com/ryanmio)
+* **Ryan Mioduski** - [@ryanmio](https://github.com/ryanmio)
