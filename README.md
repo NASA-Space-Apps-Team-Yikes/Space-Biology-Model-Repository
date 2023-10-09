@@ -1,6 +1,10 @@
 # Space Biology Model Repository
 
-This repository contains various resources and modules for the Space Biology Model project. Here is a brief overview of the directory structure:
+This repository contains various resources and modules for the Space Biology Model project. 
+
+![reposhare](webapp/images/reposhare.jpg)
+
+Here is a brief overview of the directory structure:
 
 - `requirements.txt`: Contains the Python dependencies required for this project.
 - `data`: Directory for storing data related to the project.
