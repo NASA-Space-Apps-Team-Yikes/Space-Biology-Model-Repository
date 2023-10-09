@@ -20,11 +20,6 @@ Here is a brief overview of the directory structure:
 - `webapp`: Contains the web application for the project.
     - `app.py`: The main script for running the web application.
     - `templates`: Contains HTML templates for the web application.
-        - `about.html`: Template for the About page.
-        - `analysis.html`: Template for the Analysis page.
-        - `index.html`: Template for the Home page.
-        - `upload.html`: Template for the Upload Data page.
-
 
 ### Team YIKES Members:
 
