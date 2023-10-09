@@ -20,3 +20,11 @@ This repository contains various resources and modules for the Space Biology Mod
         - `analysis.html`: Template for the Analysis page.
         - `index.html`: Template for the Home page.
         - `upload.html`: Template for the Upload Data page.
+
+
+### Team YIKES Members:
+Doug Puccetti @dpuccetti
+Augustus Tilley @tilleyam
+Hunter Allyn @hunterhwa
+Sarah Memon @sarahm6
+Ryan Mioduski @ryanmioduski
