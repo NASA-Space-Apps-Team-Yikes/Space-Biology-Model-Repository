@@ -11,7 +11,7 @@ import psycopg2
 def connect():
     # Attempting to establish a connection to the RDS PostgreSQL database
     try:
-        # Tip: Send to .end file for more security ;) 🇧🇷
+        # Tip: Send to .env file for more security ;) 🇧🇷
         conn = psycopg2.connect(host="model-zoo-space-apps.cqxs7dfl7szm.us-east-2.rds.amazonaws.com",
                                 port="5432",
                                 database="postgres",
